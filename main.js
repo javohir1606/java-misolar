@@ -62,17 +62,23 @@
 // console.log(res);
 
 
-let str = "oko" // aka
-let res = "";
-for (i = 0; i < str.length; i++){
-  res += str[i];
-}
-console.log(res);
+// let str = "oko" // aka
+// let res = "";
+// for (i = 0; i < str.length; i++){
+//   res += str[i];
+// }
+// console.log(res);
 
 
 
-
+// const btn = document.querySelector(".btn");
+// btn.addEventListener('click', ( ) => {
+//   console.log('render');
+  
+// });
 
 // Uygi-vazifa
 // 1 - misol
+// let a = 10;
+
 
