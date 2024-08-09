@@ -79,6 +79,56 @@
 
 // Uygi-vazifa
 // 1 - misol
-// let a = 10;
+// function kesma(a, b) {
+//     if (a >= 0 || b >= 0 || a <= b) {
+//     }
+//     let uzunlik = a;
+//     while (uzunlik >= b) {
+//       uzunlik -= b;
+//     }
+//     return uzunlik;
+//   }
+//   let a = 18;
+//   let b = 12;
+//   console.log(kesma(a, b));
 
+// 2 - misol
+// function son(a, b) {
+//     if (b <= 0 || a < b) {
+//         return 0;
+//     }
+//     let count = 0;
+//     let sum = 0;
+//     while (sum + b <= a) {
+//         sum += b;
+//         count++;
+//     }
+//     return count;
+// }
+// console.log(son(20, 4));
 
+// 3 - misol
+// function son(n, k) {
+//     if (k <= 0) {
+//         throw new Error("Hatolik.");
+//     }
+//     let count = 0;
+//     let number = n;
+//     while (number >= k) {
+//         number = son_1(number, k);
+//         count++;
+//     }
+//     return {
+//         count: count,
+//         number: number
+//     };
+// }
+// function son_1(a, b) {
+//     let result = a;
+//     while (result >= b) {
+//         result -= 1;
+//     }
+//     return result;
+// }
+// const output_1 = son(20, 4);
+// console.log(`Butun qismi: ${output_1.count}, Qoldiq: ${output_1.number}`);
